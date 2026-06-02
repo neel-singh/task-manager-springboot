@@ -1,7 +1,8 @@
-**Task Manager API**
+#Task Manager API
 
 A robust RESTful API for managing tasks, built with Java, Spring Boot, Spring Data JPA, and Lombok.
-🚀 Features
+
+##🚀 Features
 
     CRUD Operations: Create, Read, Update, and Delete tasks.
 
@@ -13,7 +14,7 @@ A robust RESTful API for managing tasks, built with Java, Spring Boot, Spring Da
 
     Validation: Built-in constraint validation for task due dates.
 
-**🛠 Tech Stack**
+##🛠 Tech Stack
 
     Java 17+
 
@@ -25,7 +26,7 @@ A robust RESTful API for managing tasks, built with Java, Spring Boot, Spring Da
 
     H2/MySQL/PostgreSQL (Configure in application.properties)
 
-**📋 API Endpoints**
+##📋 API Endpoints
 
 Method	Endpoint	Description
 POST	/task	Create a new task
@@ -36,7 +37,8 @@ PUT	/task/{id}	Update task by ID
 PUT	/task/title/{title}	Update task by title
 PATCH	/task/{id}/complete	Mark task as complete
 DELETE	/task/{id}	Delete task by ID
-**⚙️ How to Run**
+
+##⚙️ How to Run
 
     Clone the repository:
     Bash
@@ -52,7 +54,7 @@ DELETE	/task/{id}	Delete task by ID
 
     Access API: The server will start on http://localhost:8080.
 
-**🛡 Exception Handling**
+##🛡 Exception Handling
 
 The API includes a GlobalExceptionHandler that intercepts errors:
 
@@ -60,6 +62,6 @@ The API includes a GlobalExceptionHandler that intercepts errors:
 
     Returns 500 Internal Server Error for unexpected system issues.
 
-**📝 License**
+##📝 License
 
 This project is open-source and available for educational purposes.
